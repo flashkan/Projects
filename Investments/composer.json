@@ -1,0 +1,12 @@
+{
+    "name": "flash/investments.my",
+    "require": {
+        "twig/twig": "^3.0",
+        "robmorgan/phinx": "^0.12.1",
+        "symfony/yaml": "^5.1",
+        "electrolinux/phpquery": "^0.9.6"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "\\"}
+    }
+}

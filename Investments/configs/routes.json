@@ -1,0 +1,14 @@
+{
+  "home": [
+    "index"
+  ],
+  "action": [
+    "index",
+    "add"
+  ],
+  "asset": [
+    "index",
+    "add",
+    "delete"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "mysqlHost": "mysql",
+  "dbName": "investments",
+  "user": "root",
+  "password": "secret"
+}

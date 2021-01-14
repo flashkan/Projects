@@ -1,0 +1,13 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 9,
+            "id_product": 201,
+            "product_name": "Mango People T-shirt",
+            "img": "img/product/women/1w-product-min.jpg",
+            "price": 52
+        }
+    ]
+}

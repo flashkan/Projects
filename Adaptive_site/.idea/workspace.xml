@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a8e62b6-a8f0-4b7d-8e23-247f39e1696a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_992.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhpProject/vendor/phpunit/phpunit/tests/end-to-end/mock-objects/generator/invocation_object_clone_object.phpt" beforeDir="false" afterPath="$PROJECT_DIR$/../PhpProject/vendor/phpunit/phpunit/tests/end-to-end/mock-objects/generator/invocation_object_clone_object.phpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhpProject/vendor/phpunit/phpunit/tests/end-to-end/mock-objects/generator/nonexistent_class_with_namespace.phpt" beforeDir="false" afterPath="$PROJECT_DIR$/../PhpProject/vendor/phpunit/phpunit/tests/end-to-end/mock-objects/generator/nonexistent_class_with_namespace.phpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhpProject/vendor/phpunit/phpunit/tests/end-to-end/mock-objects/mock-method/return_by_reference.phpt" beforeDir="false" afterPath="$PROJECT_DIR$/../PhpProject/vendor/phpunit/phpunit/tests/end-to-end/mock-objects/mock-method/return_by_reference.phpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhpProject/vendor/sebastian/object-reflector/.php_cs" beforeDir="false" afterPath="$PROJECT_DIR$/../PhpProject/vendor/sebastian/object-reflector/.php_cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhpProject/vendor/sebastian/recursion-context/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../PhpProject/vendor/sebastian/recursion-context/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhpProject/vendor/sebastian/recursion-context/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PhpProject/vendor/sebastian/recursion-context/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhpProject/vendor/sebastian/type/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../PhpProject/vendor/sebastian/type/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhpProject/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/in.test" beforeDir="false" afterPath="$PROJECT_DIR$/../PhpProject/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/in.test" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Sass File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1TNL0LQbMT5hCjfX31IYrlxWhbG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a8e62b6-a8f0-4b7d-8e23-247f39e1696a" name="Default Changelist" comment="" />
+      <created>1550244550450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550244550450</updated>
+      <workItem from="1550244551885" duration="19851000" />
+      <workItem from="1550329583954" duration="6738000" />
+      <workItem from="1550403559458" duration="13720000" />
+      <workItem from="1550518258160" duration="22000" />
+      <workItem from="1550596559927" duration="617000" />
+      <workItem from="1550845716375" duration="132000" />
+      <workItem from="1573295383799" duration="707000" />
+      <workItem from="1593552071878" duration="830000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

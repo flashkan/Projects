@@ -1,0 +1,42 @@
+{% extends "layouts/base.html.twig" %}
+
+{% block title %}Add Asset{% endblock %}
+{% block head %}
+    {{ parent() }}
+{% endblock %}
+{% block content %}
+    <h1>Add new Asset</h1>
+    <meta id="is-redirect" data-redirect="{{ redirect }}">
+    <form method="post" class="formAddAsset" enctype="multipart/form-data">
+        <div>
+            <label for="ticker">Ticker</label>
+            <input type="text" id="ticker" name="ticker" class="form_input " required placeholder="ABCD">
+        </div>
+        <div>
+            <label for="type">Type</label>
+            <select id="type" name="type" class="form_input formAddAction_input-left">
+                <option value="0" disabled>Choose Type</option>
+                <option value="1" selected>Stock</option>
+                <option value="2">Fund</option>
+                <option value="3">Bonds</option>
+                <option value="4">Currency</option>
+            </select>
+        </div>
+
+{#        <div>#}
+{#            <label for="name">Name</label>#}
+{#            <input type="text" id="name" name="name" class="form_input " required>#}
+{#        </div>#}
+{#        <div>#}
+{#            <label for="imgAsset">Image</label>#}
+{#            <input type="file" id="imgAsset" name="imgAsset" class="form_input" placeholder="0"#}
+{#                   accept=".jpg, .jpeg, .png">#}
+{#        </div>#}
+        <button type="submit" name="formAddAsset" class="formAddAsset_button">Add</button>
+    </form>
+    <script>
+        if (document.getElementById('is-redirect').dataset.redirect) {
+            setTimeout(() => document.location.href = '/?url=asset/add', 1000)
+        }
+    </script>
+{% endblock %}

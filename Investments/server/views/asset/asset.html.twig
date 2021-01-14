@@ -1,0 +1,25 @@
+{% extends "layouts/base.html.twig" %}
+
+{% block title %}Assets{% endblock %}
+{% block head %}
+    {{ parent() }}
+{% endblock %}
+{% block content %}
+    <div class="asset-header">
+        <h3>Assets</h3>
+        <a href="?url=asset/add"><i class="fas fa-plus-circle"></i></a>
+    </div>
+
+    <div class="asset-wrapper">
+        {% for asset in assets %}
+            <div class="asset-element">
+                <img src="{{ asset.url_img }}" alt="asset_img" class="asset-element_img">
+                <p class="asset-element_text">{{ asset.name }} <sup>{{ asset.ticker }}</sup></p>
+                <form method="post" action="/?url=asset/delete">
+                    <button name="formDeleteAsset" value="{{ asset.id }}">delete</button>
+                </form>
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}

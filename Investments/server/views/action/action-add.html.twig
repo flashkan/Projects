@@ -1,0 +1,75 @@
+{% extends "layouts/base.html.twig" %}
+
+{% block title %}Add Action{% endblock %}
+{% block head %}
+    {{ parent() }}
+{% endblock %}
+{% block content %}
+    <h1>Add new Action</h1>
+    <meta id="is-redirect" data-redirect="{{ redirect }}">
+    <form method="post" class="formAddAction">
+        <div class="formAddAction_row1">
+            <div>
+                <select id="assets" name="asset_id" class="form_input formAddAction_input-left" required>
+                    <option value="0" disabled selected>Choose Asset</option>
+                    {% for asset in assets %}
+                        <option value="{{ asset.id }}">{{ asset.name }}</option>
+                    {% endfor %}
+                </select>
+                <label for="assets">Assets</label>
+            </div>
+            <div>
+                <label for="count">Count</label>
+                <input id="count" type="number" name="count" class="form_input formAddAction_input-right" required
+                       placeholder="0">
+            </div>
+        </div>
+
+        <div class="formAddAction_row2">
+            <div>
+                <select id="operation" name="operation_id" class="form_input formAddAction_input-left" required>
+                    {% for operation in operations %}
+                        <option value="{{ operation.id }}">{{ operation.name|capitalize }}</option>
+                    {% endfor %}
+                </select>
+                <label for="operation">Operation</label>
+            </div>
+            <div>
+                <label for="price">Price</label>
+                <input id="price" type="number" step="0.01" class="form_input formAddAction_input-right" required
+                       placeholder="0,00" name="price">
+            </div>
+        </div>
+
+        <div class="formAddAction_row3">
+            <div>
+                <select id="currency" name="currency_id" class="form_input formAddAction_input-left" required>
+                    <option value="1">USD</option>
+                    <option value="2">RUB</option>
+                </select>
+                <label for="currency">Currency</label>
+            </div>
+            <div>
+                <label for="commis">Commission</label>
+                <input id="commis" type="number" step="0.01" class="form_input formAddAction_input-right" required
+                       name="commis" placeholder="0,00">
+            </div>
+        </div>
+
+        <div class="formAddAction_row4">
+            <div>
+                <label for="date">Data</label>
+                <input id="date" type="datetime-local" name="date" class="form_input formAddAction_input-date" required>
+            </div>
+        </div>
+
+        <div class="formAddAction_row5">
+            <button type="submit" name="formAddAction" class="formAddAction_button">Add</button>
+        </div>
+    </form>
+    <script>
+        if (document.getElementById('is-redirect').dataset.redirect) {
+            setTimeout(() => document.location.href = '/?url=action/add', 1000)
+        }
+    </script>
+{% endblock %}

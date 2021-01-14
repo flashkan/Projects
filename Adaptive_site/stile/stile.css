@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 12px; }
+
+body {
+  font-family: "Arimo", sans-serif; }
+
+.container {
+  max-width: 1366px;
+  margin: 0 auto; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 1rem 1rem 1rem; }
+
+.logo-a {
+  display: flex;
+  align-items: center;
+  text-decoration: none; }
+  .logo-a-p {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2222c5;
+    margin-left: 10px; }
+
+.call-us-p {
+  font-size: 2rem;
+  color: #2222c5;
+  font-weight: 600; }
+.call-us-a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #c4ff00;
+  font-weight: 600;
+  float: right;
+  border-bottom: 1px dashed #c4ff00; }
+  .call-us-a:hover {
+    color: #2222c5;
+    border-bottom: 1px dashed #2222c5; }
+  .call-us-a:active {
+    color: #ccc;
+    border-bottom: 1px dashed #ccc; }
+
+.promo {
+  background: url(../img/background-top.jpg) center no-repeat fixed;
+  background-size: cover;
+  min-height: 490px;
+  padding-top: 153px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .promo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .promo-h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 4rem; }
+  .promo-p {
+    color: #fff;
+    font-size: 1.5rem; }
+
+.button {
+  display: block;
+  text-decoration: none;
+  background-color: #c4ff00;
+  color: #6d7b2c;
+  font-size: 1.5rem;
+  line-height: 52px;
+  height: 52px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s; }
+  .button:hover {
+    background-color: #239BF9;
+    color: #fff; }
+  .button:active {
+    color: #000; }
+  .button__promo {
+    margin-top: 40px; }
+  .button__feedback {
+    margin-top: 30px; }
+
+.choose {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .choose-country {
+    width: 28%;
+    margin-bottom: 2rem;
+    transition: box-shadow 0.3s; }
+    .choose-country:hover {
+      box-shadow: 0 0 5px 2px #ccc; }
+    .choose-country:active {
+      box-shadow: 0 0 5px 2px #000; }
+    .choose-country a {
+      text-decoration: none; }
+    .choose-country-img {
+      width: 100%; }
+    .choose-country-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #3848d6;
+      padding-bottom: 10px;
+      padding-top: 10px; }
+      .choose-country-text-p {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-transform: uppercase; }
+
+.why-us {
+  margin-top: 50px; }
+  .why-us-h3 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #21315c;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+  .why-us-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .why-us-items-item {
+      margin-top: 20px;
+      width: 9%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center; }
+      .why-us-items-item-p {
+        display: block;
+        width: 11.8rem;
+        margin-top: 20px;
+        font-size: 1.1rem;
+        color: #21315c;
+        font-weight: 600; }
+        .why-us-items-item-p span {
+          font-weight: 300; }
+
+.feedback-container {
+  background: url(../img/background-bottom.jpg) center no-repeat fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 490px;
+  margin-bottom: 100px;
+  margin-top: 80px; }
+
+.feedback {
+  background-color: #2654a2;
+  width: 80%;
+  padding: 3rem;
+  opacity: 0.95;
+  border-radius: 4px; }
+  .feedback-h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .feedback-p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 20px; }
+  .feedback-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .feedback-input {
+    width: 24%;
+    height: 44px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s; }
+    .feedback-input:hover {
+      background: #ccc; }
+    .feedback-input:focus {
+      background: #dddddd; }
+
+.address-h3 {
+  color: #21315c;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center; }
+.address-maps {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .address-maps-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+    margin-bottom: 50px; }
+    .address-maps-map-p {
+      color: #21315c;
+      margin-top: 20px;
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-align: center; }
+    .address-maps-map-span {
+      color: #999999;
+      font-weight: 400; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: #eff1f8; }
+
+@media screen and (max-width: 1300px) {
+  .address-maps-map {
+    width: 50%; } }
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 10px; }
+
+  .choose-country {
+    width: 40%; }
+
+  .why-us-items-item {
+    width: 35%; }
+
+  .feedback-input {
+    width: 60%;
+    margin-bottom: 10px; }
+
+  .feedback-form {
+    flex-direction: column;
+    align-items: center; }
+
+  .header {
+    flex-direction: column; }
+
+  .footer {
+    flex-direction: column; }
+
+  .address-maps-map {
+    width: 100%; } }
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 8px;
+    min-width: 320px; }
+
+  .choose-country {
+    width: 90%; }
+
+  .why-us-items-item {
+    width: 55%; }
+
+  .feedback-input {
+    width: 80%; }
+
+  .logo {
+    width: 100%; } }
+
+/*# sourceMappingURL=stile.css.map */

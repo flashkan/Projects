@@ -1,0 +1,41 @@
+{% extends "layouts/base.html.twig" %}
+
+{% block title %}Actions{% endblock %}
+{% block head %}
+    {{ parent() }}
+{% endblock %}
+{% block content %}
+    <p class="action-header_sum">Sum: <span>0</span></p>
+    <div class="action-header">
+        <h3>Actions</h3>
+        <a href="?url=action/add"><i class="fas fa-plus-circle"></i></a>
+    </div>
+    <div class="action-wrapper">
+        {% for action in actions %}
+            <div class="action-element">
+                <input class="action-element_checkbox" type="checkbox"
+                       onclick="Calculator.run({{ action|json_encode }})">
+                <div class="action-element_top-wrap">
+                    <img src="{{ action.url_img }}" alt="action_img" class="action-element_img">
+                    <p class="action-element_text action-element_text_name">{{ action.name }}
+                        <sup>{{ action.ticker }}</sup></p>
+                    <p class="action-element_text_count {% if action.operation == 'dividend' %} action-element_text_count__dividend{% endif %}">
+                        {% if action.operation == 'dividend' %} D
+                        {% elseif action.operation == 'buy' %} +{{ action.count }}
+                        {% elseif action.operation == 'sale' %} -{{ action.count }}
+                        {% endif %}
+                    </p>
+                </div>
+
+                <div class="action-element_bottom-wrap">
+                    <p class="action-element_text {% if action.operation == 'buy' %}action-element_text__decrease{% else %}action-element_text__increase{% endif %}">
+                        {% if action.operation == 'buy' %}-{% else %}+{% endif %} {{ action.price }}
+                        <span class="action-element_text_price_span">- {{ action.commis }}</span>
+                    </p>
+                    <p class="action-element_text">{{ action.currency }} </p>
+                    <p class="action-element_text">{{ action.date }} </p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

@@ -1,0 +1,577 @@
+[
+    {
+        "event": "del",
+        "productId": 109,
+        "dataTime": "May 1st 2019, 9:49:42 pm"
+    },
+    {
+        "event": "del",
+        "productId": 111,
+        "dataTime": "May 1st 2019, 9:49:45 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "May 1st 2019, 9:56:03 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "May 1st 2019, 9:56:05 pm"
+    },
+    {
+        "event": "add",
+        "productId": 203,
+        "dataTime": "May 1st 2019, 9:56:08 pm"
+    },
+    {
+        "event": "del",
+        "productId": 106,
+        "dataTime": "May 1st 2019, 9:56:14 pm"
+    },
+    {
+        "event": "add",
+        "productId": 103,
+        "dataTime": "May 1st 2019, 10:01:48 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "May 1st 2019, 10:02:57 pm"
+    },
+    {
+        "event": "add",
+        "productId": 106,
+        "dataTime": "July 24th 2019, 7:46:29 pm"
+    },
+    {
+        "event": "del",
+        "productId": 106,
+        "dataTime": "July 24th 2019, 7:46:34 pm"
+    },
+    {
+        "event": "add",
+        "productId": 205,
+        "dataTime": "July 24th 2019, 7:46:46 pm"
+    },
+    {
+        "event": "add",
+        "productId": 105,
+        "dataTime": "July 24th 2019, 7:47:11 pm"
+    },
+    {
+        "event": "add",
+        "productId": 105,
+        "dataTime": "July 24th 2019, 7:47:24 pm"
+    },
+    {
+        "event": "add",
+        "productId": 105,
+        "dataTime": "July 24th 2019, 7:47:25 pm"
+    },
+    {
+        "event": "add",
+        "productId": 105,
+        "dataTime": "July 24th 2019, 7:47:25 pm"
+    },
+    {
+        "event": "add",
+        "productId": 105,
+        "dataTime": "July 24th 2019, 7:47:25 pm"
+    },
+    {
+        "event": "del",
+        "productId": 105,
+        "dataTime": "July 24th 2019, 7:47:28 pm"
+    },
+    {
+        "event": "del",
+        "productId": 205,
+        "dataTime": "July 24th 2019, 7:47:33 pm"
+    },
+    {
+        "event": "add",
+        "productId": 205,
+        "dataTime": "November 8th 2019, 5:36:25 pm"
+    },
+    {
+        "event": "add",
+        "productId": 206,
+        "dataTime": "November 8th 2019, 5:36:45 pm"
+    },
+    {
+        "event": "del",
+        "productId": 206,
+        "dataTime": "November 8th 2019, 5:36:51 pm"
+    },
+    {
+        "event": "del",
+        "productId": 205,
+        "dataTime": "November 8th 2019, 5:37:02 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "November 8th 2019, 5:37:08 pm"
+    },
+    {
+        "event": "del",
+        "productId": 203,
+        "dataTime": "November 8th 2019, 5:37:16 pm"
+    },
+    {
+        "event": "del",
+        "productId": 203,
+        "dataTime": "November 8th 2019, 5:37:17 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "November 8th 2019, 5:37:35 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "November 8th 2019, 5:37:35 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "November 8th 2019, 5:37:35 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "November 8th 2019, 5:37:36 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "November 8th 2019, 5:37:36 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "November 8th 2019, 5:37:36 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "November 8th 2019, 5:37:36 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "November 8th 2019, 5:37:38 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "November 8th 2019, 5:37:42 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "November 8th 2019, 5:37:47 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "November 8th 2019, 5:37:52 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "November 8th 2019, 5:37:57 pm"
+    },
+    {
+        "event": "add",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 4:58:58 pm"
+    },
+    {
+        "event": "del",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 4:59:04 pm"
+    },
+    {
+        "event": "del",
+        "productId": 103,
+        "dataTime": "January 12th 2021, 4:59:05 pm"
+    },
+    {
+        "event": "del",
+        "productId": 207,
+        "dataTime": "January 12th 2021, 4:59:06 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 4:59:10 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 4:59:12 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 4:59:14 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 4:59:14 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 4:59:14 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 4:59:14 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 4:59:14 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 4:59:15 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 4:59:15 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 4:59:15 pm"
+    },
+    {
+        "event": "add",
+        "productId": 107,
+        "dataTime": "January 12th 2021, 4:59:17 pm"
+    },
+    {
+        "event": "add",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 4:59:21 pm"
+    },
+    {
+        "event": "add",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:00:50 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 5:13:42 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 5:13:42 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 5:13:42 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 5:13:42 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 5:13:43 pm"
+    },
+    {
+        "event": "del",
+        "productId": 107,
+        "dataTime": "January 12th 2021, 5:13:45 pm"
+    },
+    {
+        "event": "del",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:13:45 pm"
+    },
+    {
+        "event": "del",
+        "productId": 203,
+        "dataTime": "January 12th 2021, 5:13:47 pm"
+    },
+    {
+        "event": "del",
+        "productId": 203,
+        "dataTime": "January 12th 2021, 5:13:48 pm"
+    },
+    {
+        "event": "del",
+        "productId": 203,
+        "dataTime": "January 12th 2021, 5:13:48 pm"
+    },
+    {
+        "event": "del",
+        "productId": 203,
+        "dataTime": "January 12th 2021, 5:13:49 pm"
+    },
+    {
+        "event": "del",
+        "productId": 203,
+        "dataTime": "January 12th 2021, 5:13:49 pm"
+    },
+    {
+        "event": "add",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:14:42 pm"
+    },
+    {
+        "event": "del",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 5:17:28 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 5:17:29 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 5:17:29 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 5:17:29 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 5:17:29 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 5:17:30 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 5:17:30 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 5:17:30 pm"
+    },
+    {
+        "event": "add",
+        "productId": 201,
+        "dataTime": "January 12th 2021, 5:17:30 pm"
+    },
+    {
+        "event": "add",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:17:34 pm"
+    },
+    {
+        "event": "add",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:17:34 pm"
+    },
+    {
+        "event": "add",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:17:34 pm"
+    },
+    {
+        "event": "add",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:17:39 pm"
+    },
+    {
+        "event": "add",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:17:39 pm"
+    },
+    {
+        "event": "add",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:17:39 pm"
+    },
+    {
+        "event": "add",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:17:40 pm"
+    },
+    {
+        "event": "add",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:17:40 pm"
+    },
+    {
+        "event": "add",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:17:41 pm"
+    },
+    {
+        "event": "add",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:17:44 pm"
+    },
+    {
+        "event": "del",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:17:48 pm"
+    },
+    {
+        "event": "del",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:17:48 pm"
+    },
+    {
+        "event": "del",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:17:48 pm"
+    },
+    {
+        "event": "del",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:17:49 pm"
+    },
+    {
+        "event": "del",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:20:16 pm"
+    },
+    {
+        "event": "del",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:20:17 pm"
+    },
+    {
+        "event": "del",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:20:17 pm"
+    },
+    {
+        "event": "del",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:20:18 pm"
+    },
+    {
+        "event": "del",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:20:18 pm"
+    },
+    {
+        "event": "del",
+        "productId": 203,
+        "dataTime": "January 12th 2021, 5:20:19 pm"
+    },
+    {
+        "event": "del",
+        "productId": 203,
+        "dataTime": "January 12th 2021, 5:20:20 pm"
+    },
+    {
+        "event": "del",
+        "productId": 203,
+        "dataTime": "January 12th 2021, 5:20:21 pm"
+    },
+    {
+        "event": "del",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:20:22 pm"
+    },
+    {
+        "event": "del",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:20:22 pm"
+    },
+    {
+        "event": "add",
+        "productId": 107,
+        "dataTime": "January 12th 2021, 5:20:26 pm"
+    },
+    {
+        "event": "del",
+        "productId": 107,
+        "dataTime": "January 12th 2021, 5:20:30 pm"
+    },
+    {
+        "event": "add",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:20:34 pm"
+    },
+    {
+        "event": "add",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:21:07 pm"
+    },
+    {
+        "event": "add",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:21:07 pm"
+    },
+    {
+        "event": "add",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:21:08 pm"
+    },
+    {
+        "event": "add",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:21:08 pm"
+    },
+    {
+        "event": "add",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:21:09 pm"
+    },
+    {
+        "event": "del",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:21:12 pm"
+    },
+    {
+        "event": "del",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:21:12 pm"
+    },
+    {
+        "event": "del",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:21:12 pm"
+    },
+    {
+        "event": "del",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:21:12 pm"
+    },
+    {
+        "event": "del",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:21:12 pm"
+    },
+    {
+        "event": "del",
+        "productId": 106,
+        "dataTime": "January 12th 2021, 5:21:14 pm"
+    },
+    {
+        "event": "del",
+        "productId": 102,
+        "dataTime": "January 12th 2021, 5:21:16 pm"
+    }
+]

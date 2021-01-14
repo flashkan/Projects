@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% block head %}
+        <link rel="stylesheet" href="style/style.css"/>
+        <title>{% block title %}{% endblock %} - Investments</title>
+    {% endblock %}
+</head>
+<body>
+
+<div class="mainWrapper">
+    <div class="falseWrapper">
+        <header class="header">
+            {% if success %}
+                <div class="alert-message success-message">{{ success }}</div>
+            {% endif %}
+            {% if failure %}
+                <div class="alert-message failure-message">{{ failure }}</div>
+            {% endif %}
+
+            {% block header %}
+                <div>
+                    <a href="https://www.tinkoff.ru/invest/" target="_blank" class="tinkoff-top-a">
+                        <img src="img/Tinkoff.png" alt="logo" class="img-tinkoff">
+                        <p>Nikolai Babkin</p>
+                    </a>
+                </div>
+                <nav class="nav-top">
+                    <a href="/">Home</a>
+                    <a href="?url=asset">Assets</a>
+                    <a href="?url=action">Actions</a>
+                </nav>
+                <div>
+                    <a href="https://www.tinkoff.ru/invest/" target="_blank" class="tinkoff-top-a">
+                        <img src="img/Tinkoff.png" alt="logo" class="img-tinkoff">
+                        <p>Nikolai Babkin</p>
+                    </a>
+                </div>
+            {% endblock %}
+        </header>
+        <main class="main">
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+
+    <footer class="footer">
+        {% block footer %}
+            <p>some footer</p>
+        {% endblock %}
+    </footer>
+</div>
+
+<script src="https://kit.fontawesome.com/dc1b6a368a.js" crossorigin="anonymous"></script>
+<script src="scripts/Calculator.js"></script>
+</body>
+</html>
